@@ -1,0 +1,141 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "file:////home/jorrit/proj/globi/data/hoenle2019/appendixS2.tsv",
+    "dcterms:bibliographicCitation" : "Hoenle, P.O. et al., 2019. Species‐level predation network uncovers high prey specificity in a Neotropical army ant community. Molecular Ecology, 28(9), pp.2423–2440. Available at: http://dx.doi.org/10.1111/mec.15078.",
+    "doi": "10.1111/mec.15078",
+    "delimiter" : "\t",
+    "headerRowCount" : 3,
+    "interactionTypeId" : "http://purl.obolibrary.org/obo/RO_0002458",
+    "interactionTypeName" : "preyedUponBy",
+    "null" : [ "no sequence", "n.a.", "No BIN", "not available" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "BOLD Project Code",
+        "titles" : "BOLD Project Code",
+        "datatype" : "string"
+      }, {
+        "name" : "Process ID",
+        "titles" : "Process ID",
+        "datatype" : "string"
+      }, {
+        "name" : "Sample ID",
+        "titles" : "Sample ID",
+        "datatype" : "string"
+      }, {
+        "name" : "BIN",
+        "titles" : "BIN",
+        "datatype" : "string"
+      }, {
+        "name" : "COI Sequence Length",
+        "titles" : "COI Sequence Length",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceOccurrenceId",
+        "titles" : "GenBank Accession",
+        "datatype" : {
+          "type": "string",
+          "valueUrl": "https://www.ncbi.nlm.nih.gov/nuccore/{sourceOccurrenceId}"
+        }
+      }, {
+        "name" : "Image Count",
+        "titles" : "Image Count",
+        "datatype" : "string"
+      }, {
+        "name" : "Specimen Deposition",
+        "titles" : "Specimen Deposition",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonPhylum",
+        "titles" : "Phylum",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonClass",
+        "titles" : "Class",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonOrder",
+        "titles" : "Order",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamily",
+        "titles" : "Family",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSubfamily",
+        "titles" : "Subfamily",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenus",
+        "titles" : "Genus",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSpecies",
+        "titles" : "Species",
+        "datatype" : "string"
+      }, {
+        "name" : "Identifier",
+        "titles" : "Identifier",
+        "datatype" : "string"
+      }, {
+        "name" : "Identification Method",
+        "titles" : "Identification Method",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceLifeStage",
+        "titles" : "Life Stage",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "Associated Taxa",
+        "datatype" : "string"
+      }, {
+        "name" : "Collectors",
+        "titles" : "Collectors",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
+        "titles" : "Collection Date",
+        "datatype" : { 
+          "base": "date",
+          "format": "dd-MMM-YYYY"
+        }
+      }, {
+        "name" : "localityName",
+        "titles" : "Country",
+        "datatype" : "string"
+      }, {
+        "name" : "State/Province",
+        "titles" : "State/Province",
+        "datatype" : "string"
+      }, {
+        "name" : "Region",
+        "titles" : "Region",
+        "datatype" : "string"
+      }, {
+        "name" : "Exact Site",
+        "titles" : "Exact Site",
+        "datatype" : "string"
+      }, {
+        "name" : "Event Time",
+        "titles" : "Event Time",
+        "datatype" : "string"
+      }, {
+        "name" : "Habitat",
+        "titles" : "Habitat",
+        "datatype" : "string"
+      }, {
+        "name" : "Collection Notes",
+        "titles" : "Collection Notes",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
