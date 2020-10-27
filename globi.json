@@ -8,7 +8,7 @@
       "@language" : "en"
     } ],
     "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
-    "url" : "file:////home/jorrit/proj/globi/data/hoenle2019/appendixS2.tsv",
+    "url" : "appendixS2.tsv",
     "dcterms:bibliographicCitation" : "Hoenle, P.O. et al., 2019. Species‐level predation network uncovers high prey specificity in a Neotropical army ant community. Molecular Ecology, 28(9), pp.2423–2440. Available at: http://dx.doi.org/10.1111/mec.15078.",
     "doi": "10.1111/mec.15078",
     "delimiter" : "\t",
